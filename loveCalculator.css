@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(love.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.calculator {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2em;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input {
+    width: calc(100% - 2em);
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff3b3b;
+}
+
+#result.hidden {
+    display: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    height:60px;
+    background-color: #dfcece;
+}
+#result{
+    background-image: url(love2.jpg);
+    background-size: cover;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    color:aliceblue;
+
+}
+h2{
+    color:aliceblue;
+}
+header{
+    background-image: url(h1.jpg);
+    background-size: cover;
+}
