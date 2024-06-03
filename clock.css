@@ -1,0 +1,128 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.clock1 {
+    position: relative;
+    width: 200px;
+    height: 200px; 
+    border: 7px solid #e88888;
+    border-radius: 25%; 
+    /* background: rgb(67, 65, 65); */
+    background-image: url(ar.jpg);
+    background-size: cover;
+    /* opacity: 0.5;
+    backdrop-filter: blur(20deg); */
+    filter: blur(1px);
+  /* -webkit-filter: blur(1px); */
+}
+.abc{
+    opacity: 2;
+}
+
+.hand {
+    position: absolute;
+    width: 50%;
+    height: 6px;
+    background: rgb(27, 208, 33);
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.4, 2.3, 0.3, 1);
+}
+
+.hour {
+    width: 50%; 
+    height: 7px;
+    background: #3cbd18;
+}
+
+.minute {
+    width: 50%; 
+    height: 5px;
+    background: #666;
+}
+
+.second {
+    width: 50%; 
+    height: 3px;
+    background: red;
+}
+
+.center {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #802a2a;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#number3 {
+    position: absolute;
+    width: 185px;
+    height: 50px;
+    text-align: center;
+    transform-origin: 50% 50%; 
+    top: 45%;
+    left: 50%;
+    transform: rotate(var(--rotation, 0deg)) translate(95px) rotate(calc(-1 * var(--rotation, 0deg))); 
+    font-weight: bold;
+    font-size: 20px;
+    color: #df138e;
+    opacity: 3;
+}
+#number12 {
+    position: absolute;
+    width: 0px;
+    height: 1850px;
+    text-align: center;
+    transform-origin: 50% 50%;
+    top: 0%;
+    left: 45%;
+    transform: rotate(var(--rotation, 0deg)) translate(95px) rotate(calc(-1 * var(--rotation, 0deg))); 
+    font-weight: bold;
+    font-size: 20px;
+    color:#df138e;
+    opacity: 3;
+}
+#number6 {
+    position: absolute;
+    width: 0px;
+    height: 1850px;
+    text-align: center;
+    transform-origin: 50% 50%; 
+    top: 90%;
+    left: 50%;
+    transform: rotate(var(--rotation, 0deg)) translate(95px) rotate(calc(-1 * var(--rotation, 0deg))); 
+    font-weight: bold;
+    font-size: 20px;
+    color: #df138e;
+    opacity: 3;
+}
+
+
+
+#number9 {
+    position: absolute;
+    width: -48px;
+    height: 180px;
+    text-align: center;
+    transform-origin: 50% 50%; 
+    top: 45%;
+    left: 2%;
+    transform: rotate(var(--rotation, 0deg)) translate(95px) rotate(calc(-1 * var(--rotation, 0deg))); 
+    font-weight: bold;
+    font-size: 20px;
+    color: #df138e;
+    opacity: 10;
+}
