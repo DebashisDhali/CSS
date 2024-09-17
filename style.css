@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url(love.jpg);
+    background-image: url(./images/love.jpg);
     background-size: cover;
 }
 
@@ -76,7 +76,7 @@ footer {
     background-color: #dfcece;
 }
 #result{
-    background-image: url(love2.jpg);
+    background-image: url(./images/love2.jpg);
     background-size: cover;
     background-color: #f9f9f9;
     border-radius: 15px;
